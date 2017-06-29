@@ -1,0 +1,22 @@
+{
+  "name": "testrepo1",
+  "description": "Test repo 1 for renovate",
+  "version": "1.0.0",
+  "author": "Rhys Arkins <rhys@keylocation.sg>",
+  "dependencies": {
+    "grunt": "1.0.1",
+    "gulp": "3.9.1"
+  },
+  "renovate": {
+    "packages": [
+      {
+    	"packagePattern": "^eslint",
+    	"groupName": "eslint"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/singapore/testrepo1.git"
+  }
+}
